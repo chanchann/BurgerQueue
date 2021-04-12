@@ -1,0 +1,12 @@
+add_executable(BlockingQueue_test BlockingQueue_test.cc)
+target_link_libraries(BlockingQueue_test burger_que)
+
+add_executable(BlockingQueue_test02 BlockingQueue_test02.cc)
+target_link_libraries(BlockingQueue_test02 burger_que)
+
+add_executable(LockFreeQueue_test LockFreeQueue_test.cc)
+target_link_libraries(LockFreeQueue_test burger_que)
+
+
+
+
